@@ -28,6 +28,6 @@ Cypress.Commands.add('validate_all_fieldvalues',(ele_list,records,field_val)=>{
     cy.get(ele_list).each(($el, index, $list) => {
         const actual_value = $el.text()
         const expected_value=(records[index][field_val]).toString()
-        expect(actual_value).to.eq(expected_value)
+        expect(actual_value).to.equal(expected_value)
     })
 })

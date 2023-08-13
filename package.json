@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "cypress": "^12.17.3"
+  },
+  "scripts": {
+    "test:validateTableValues": "npx cypress run --spec cypress/e2e/tests/ValidateTableData.cy.js"
   }
 }

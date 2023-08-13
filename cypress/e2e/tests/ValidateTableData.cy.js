@@ -1,3 +1,4 @@
+///<reference types="Cypress" />
 import TestPageObject from './PageObject.cy'
 const pageObject = new TestPageObject
 
