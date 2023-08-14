@@ -1,0 +1,1 @@
+Install Cypress (Node version should be 12 and above)
